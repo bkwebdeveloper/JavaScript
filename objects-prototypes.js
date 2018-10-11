@@ -151,3 +151,11 @@ const snoop = new Animal('Snoop', 7)
 prototype is only available on 'functions' since they are derived from Function, Function, and Object 
 but in anything else it is not. However, __proto__ is available everywhere.
 */
+
+
+// Good to know topics
+
+// If you want to know the prototype of an instance. You can do so as following:
+const prototype = Object.getPrototypeOf(leo);
+proto === Animal.prototype  // true
+
